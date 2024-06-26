@@ -75,7 +75,8 @@ otp.config = {
     baseLayers: [
         {
             name: 'Stamen Terrain',
-            tileUrl: 'http://tile.stamen.com/terrain/{z}/{x}/{y}.png',
+            /*tileUrl: 'http://tile.stamen.com/terrain/{z}/{x}/{y}.png',*/
+            tileUrl: 'https://tiles.stadiamaps.com/tiles/stamen_terrain/{z}/{x}/{y}.png',
             attribution : 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.',
             maxZoom: 22,
             maxNativeZoom: 18
@@ -89,15 +90,16 @@ otp.config = {
         },
         {
             name: 'Transport Tiles',
-            tileUrl: 'http://{s}.tile.thunderforest.com/transport/{z}/{x}/{y}.png',
+            tileUrl: 'http://{s}.tile.thunderforest.com/transport/{z}/{x}/{y}.png?apikey=219dde6157c849a8aa0bc3777a603917',
             subdomains : ['a','b','c'],
             attribution: 'Data from <a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> and contributors. Tiles from <a href="http://www.thunderforest.com/transport/">Andy Allan</a>',
             maxZoom: 22,
             maxNativeZoom: 22
         },
-        {
+        {  
             name: 'Stamen Toner Lite',
-            tileUrl: 'http://tile.stamen.com/toner-lite/{z}/{x}/{y}.png',
+            /*tileUrl: 'http://tile.stamen.com/toner-lite/{z}/{x}/{y}.png',*/
+            tileUrl: 'https://tiles.stadiamaps.com/tiles/stamen_toner-lite/{z}/{x}/{y}.png',
             attribution : 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.',
             maxZoom: 22,
             maxNativeZoom: 20
